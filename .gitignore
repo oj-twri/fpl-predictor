@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data (download it with code instead of committing it)
+data/
+*.csv
+
+# Trained models
+models/
+*.pkl
+
+# Secrets, in case you add a paid data source later
+.env
+
+
